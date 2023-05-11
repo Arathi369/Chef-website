@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-around;
     line-height: 4rem;
+    background-color: #747574;
 }
 
 .left h1 {
@@ -59,87 +60,7 @@
 }
 
 
-/*  Home  */
-#home {
-    padding: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(235 232 229);
-}
 
-.home-left .col-red {
-    margin-bottom: 10px;
-}
-
-.home-left .col-red p {
-    padding: 4px;
-    display: inline;
-    font-weight: bold;
-    border-radius: 9px;
-    background: #edcbc1;
-    color: rgb(245, 49, 23);
-}
-
-.home-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.home-left p {
-    margin-bottom: 10px;
-}
-
-.home-left h1 {
-    font-size: 40px;
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.home-right {
-    height: 300px;
-    width: 350px;
-    cursor: pointer;
-    transition: all .5s ease-in;
-    border-top-right-radius: 130px;
-    border-bottom-left-radius: 130px;
-    background-color: #fc5508
-    box-shadow: 0px 0px 12px 0px rgb(47 53 79);
-}
-
-.home-right:hover {
-    transform: translateY(-12px);
-}
-
-.home-right img {
-    position: center;
-    top: 20px;
-    left: 67px;
-    z-index: 1;
-    width: 400px;
-    height:230px;
-}
-
-.bg-red-btn {
-    padding: 8px;
-    width: 124px;
-    color: white;
-    cursor: pointer;
-    margin-top: 10px;
-    font-weight: bold;
-    border-radius: 15rem;
-    background: rgb(245, 49, 23);
-    border: 1px solid rgb(245, 49, 23);
-}
-
-.bg-red-btn:hover {
-    padding: 8px;
-    margin-top: 10px;
-    background: transparent;
-    color: rgb(245, 49, 23);
-    border: 1px solid rgb(245, 49, 23);
-}
 
 /*  Home */
 #home {
@@ -147,7 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(235 232 229);
+    background-color: #2d2e2d;
 }
 
 .home-left .col-red {
@@ -228,7 +149,7 @@
     height: auto;
     padding: 20px;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: #2d2e2d;
 }
 
 #delivery-partner h4,
@@ -257,6 +178,7 @@ h1 {
     justify-content: center;
     transition: all .5s ease-in;
     box-shadow: 0px 0px 12px -1px black;
+    background-color:#747574;
 }
 
 .partner:hover {
@@ -269,10 +191,6 @@ h1 {
     height: 200px;
 }
 
-.partners .left img {
-    width: 70px;
-}
-
 
 
 /*  Main Section  */
@@ -281,7 +199,7 @@ h1 {
     height: auto;
     padding: 20px;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color:#2d2e2d;
 }
 
 h4 {
@@ -330,7 +248,7 @@ h1 {
 #contact {
     padding: 25px;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: #2d2e2d;
 }
 
 #contact h4,
